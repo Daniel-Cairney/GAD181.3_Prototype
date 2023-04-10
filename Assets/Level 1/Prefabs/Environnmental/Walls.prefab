@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 3432552136813799860}
   - component: {fileID: 6441820615288225126}
   - component: {fileID: 4614485422925321018}
+  - component: {fileID: 8877014239813664676}
   m_Layer: 0
-  m_Name: Vwall1
-  m_TagString: Untagged
+  m_Name: Walls
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,3 +112,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &8877014239813664676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545423247434602618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3dc308e87334d44ca4418c7cf525096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1: {fileID: 0}
+  player2: {fileID: 0}
