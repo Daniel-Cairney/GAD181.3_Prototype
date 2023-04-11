@@ -25,10 +25,6 @@ public class PlayerMovement : MonoBehaviour
 
         Jump();
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            SwitchDirection(); 
-        }
         
     }
     private void Jump()
